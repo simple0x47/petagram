@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                   android:layout_height="wrap_content" android:layout_margin="8dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <com.gabrielamihalachioaie.petagram.custom.SquareImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/profilePicture"
+                android:scaleType="fitCenter" app:srcCompat="@drawable/big_doge"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/profileDetailsContainer">
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/bone" android:id="@+id/giveBoneButton"
+                    android:backgroundTint="#00FFFFFF"/>
+            <TextView
+                    android:text="Dummy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/profileName"
+                    android:gravity="center_vertical"/>
+            <TextView
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/givenBones" android:layout_weight="1"
+                    android:gravity="center_vertical|end"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" app:srcCompat="@drawable/filled_bone"
+                    android:id="@+id/filledBones"
+                    android:layout_weight="1" android:padding="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
