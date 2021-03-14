@@ -1,7 +1,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context="com.gabrielamihalachioaie.petagram.MainActivity">
+      tools:context="com.gabrielamihalachioaie.petagram.ui.MainActivity">
     <item android:title="@string/favorites" app:showAsAction="always" android:icon="@drawable/bone"
           android:titleCondensed="@string/favorites" android:id="@+id/favoritePets"/>
+    <item android:title="@string/contact" app:showAsAction="never" android:id="@+id/contactItem"/>
+    <item android:title="@string/about_us" app:showAsAction="never" android:id="@+id/aboutUsItem"/>
 </menu>

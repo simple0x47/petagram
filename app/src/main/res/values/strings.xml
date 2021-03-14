@@ -4,4 +4,23 @@
 
     <string name="added_bone">Good boy!</string>
     <string name="favorites">Favorites</string>
+
+    <string name="contact">Contact us</string>
+    <string name="about_us">About us</string>
+
+    <string name="contact_name">Name</string>
+    <string name="contact_email">Email</string>
+    <string name="contact_message">Message</string>
+    <string name="contact_send">Send Message</string>
+
+    <string name="contact_mail_subject">contacted us!</string>
+
+    <string name="contact_mail_reply_subject">We have received your message!</string>
+    <string name="contact_mail_reply_message">The message you have sent us will be treated shortly.</string>
+
+    <string name="contact_sending">Sending…</string>
+
+    <string name="developer_details">Gabriel Amihalachioaie</string>
+    <string name="developer_position">CEO of ElementalG</string>
+    <string name="developer_github">https://github.com/simple0x47</string>
 </resources>
