@@ -61,6 +61,12 @@ public class FavoriteActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onBackPressed() {
+        showMainActivity();
+        finish();
+    }
+
     private void showMainActivity() {
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         intent.putParcelableArrayListExtra(MainActivity.DATA_SET, profiles);
